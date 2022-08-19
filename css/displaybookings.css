@@ -1,0 +1,36 @@
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: black;
+	background-color:  #FFFFFF;
+}
+table
+{
+	border: 1px solid;
+	border-collapse: collapse;
+	margin: 30px auto;
+}
+th
+{
+	border: 1px solid #8080ff;
+	line-height: 35px;
+	font-size: 14px;
+	padding: 5px 5px 5px 5px;
+	background-color: #9999ff;
+	color: #FFFFFF;
+}
+tr
+{
+	padding: 5px;
+	line-height: 30px;
+}
+td
+{
+	border: 1px solid #8080ff;
+	min-height:30px;
+	text-align:center; 
+    vertical-align:middle;
+	font-size: 14px;
+	padding: 5px 5px 5px 5px;
+}

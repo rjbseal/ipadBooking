@@ -1,0 +1,103 @@
+body {
+  color:#333333;
+  font-family:Helvetica, Arial, sans-serif;
+  line-height:20px;
+}
+
+.infobar {
+	background-color: #333333;
+	color: #FFFFFF;
+	padding: 8px;
+}
+
+.form-wrapper {
+  background-color:#F2F2F2;
+  border:1px solid #E5E5E5;
+  border-radius:5px;
+  box-shadow:rgba(0, 0, 0, 0.0470588) 0 1px 2px;
+  max-width:350px;
+  margin: 30px auto;
+  padding: 10px;
+}
+.controls {
+	margin-left: 150px;
+}
+.form-label {
+	float:left;
+	padding-top: 5px;
+    text-align: right;
+    width: 160px;
+	margin-bottom: 0;
+}
+
+.form-booking-container {
+  background-color:#F2F2F2;
+  border:1px solid #E5E5E5;
+  border-radius:5px;
+  box-shadow:rgba(0, 0, 0, 0.0470588) 0 1px 2px;
+  margin:20 auto 20px;
+  max-width:300px;
+  padding:19px 29px 29px;
+
+}
+
+.input-block-level {
+  box-sizing:border-box;
+  display:block;
+  min-height:30px;
+  width:150px;
+  font-size:16px;
+  height:auto;
+  margin-bottom:15px;
+  padding:7px 9px;
+  
+}
+
+.input-time-hour {
+  min-height:30px;
+  width:73px;
+  font-size:16px;
+  height:auto;
+  /*margin-bottom:5px;*/
+  padding:7px 9px;
+}
+
+
+.btn-booking {
+  border-radius:6px;
+  font-size:17.5px;
+  background-color:#006DCC;
+  background-image:linear-gradient(#0088CC, #0044CC);
+  background-repeat:repeat-x;
+  border-color:rgba(0, 0, 0, 0.0980392) rgba(0, 0, 0, 0.0980392) rgba(0, 0, 0, 0.247059);
+  color:#FFFFFF;
+  text-shadow:rgba(0, 0, 0, 0.247059) 0 -1px 0;
+  width:100%;
+  height: 50px;
+}
+
+#form-errors {
+  background-color:#B02220;
+  border:1px solid #CC0000;
+  border-radius:5px;
+  box-shadow:rgba(0, 0, 0, 0.0470588) 0 1px 2px;
+  color:#FFFFFF;
+  font-weight:bold;
+  margin:0 auto 20px;
+  max-width:340px;
+  padding:10px 20px;
+  text-align:center;
+}
+
+#form-success {
+  background-color:green;
+  border:1px solid green;
+  border-radius:5px;
+  box-shadow:rgba(0, 0, 0, 0.0470588) 0 1px 2px;
+  color:#FFFFFF;
+  font-weight:bold;
+  margin:0 auto 20px;
+  max-width:318px;
+  padding:10px 20px;
+  text-align:center;
+}

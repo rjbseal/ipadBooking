@@ -1,0 +1,67 @@
+body {
+  color:#333333;
+  font-family:Helvetica, Arial, sans-serif;
+  line-height:20px;
+}
+
+.input-block-level {
+  box-sizing:border-box;
+  display:block;
+  min-height:30px;
+  width:100%;
+
+}
+
+.form-signin {
+  background-color:#F2F2F2;
+  border:1px solid #E5E5E5;
+  border-radius:5px;
+  box-shadow:rgba(0, 0, 0, 0.0470588) 0 1px 2px;
+  margin:50 auto 20px;
+  max-width:300px;
+  padding:19px 29px 29px;
+
+}
+
+.form-signin input[type="text"], .form-signin input[type="password"] {
+  font-size:16px;
+  height:auto;
+  margin-bottom:15px;
+  padding:7px 9px;
+}
+
+.btn-primary {
+  background-color:#006DCC;
+  background-image:linear-gradient(#0088CC, #0044CC);
+  background-repeat:repeat-x;
+  border-color:rgba(0, 0, 0, 0.0980392) rgba(0, 0, 0, 0.0980392) rgba(0, 0, 0, 0.247059);
+  color:#FFFFFF;
+  text-shadow:rgba(0, 0, 0, 0.247059) 0 -1px 0;
+}
+
+.btn-block {
+  box-sizing:border-box;
+  display:block;
+  padding-left:0;
+  padding-right:0;
+  width:100%;
+}
+
+.btn-large {
+  border-radius:6px;
+  font-size:17.5px;
+  padding:11px 19px;
+}
+
+#form-errors, #cc-errors, #reason-errors, #ip-errors, #account-errors, #export-errors {
+  background-color:#B02220;
+  border:1px solid #CC0000;
+  border-radius:5px;
+  box-shadow:rgba(0, 0, 0, 0.0470588) 0 1px 2px;
+  color:#FFFFFF;
+  font-weight:bold;
+  margin:0 auto 20px;
+  max-width:300px;
+  padding:10px 20px;
+  text-align:center;
+}
